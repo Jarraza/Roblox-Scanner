@@ -20,14 +20,22 @@ python scanner.py --valued-only        # skip items Rolimons hasn't valued
 python scanner.py --loop               # re scan continuously until Ctrl+C
 ```
 
-`--limit N` - all - scan only the first N items 
+`--limit N` - all - scan only the first N items
+
 `--delay S` - `0.3` - seconds between catalog calls 
+
 `--timeout S` - `15.0` - per-request timeout 
+
 `--min-discount P` - `0.0` - only show rows at least P% under reference 
+
 `--valued-only` - off - skip items with no Rolimons value 
+
 `--csv PATH` - — - also write full results to CSV 
+
 `--loop` - off - re-scan continuously instead of exiting once 
+
 `--interval S` - `60.0` - seconds between loop cycles 
+
 `--rolimons-refresh S` - `300.0` - seconds between Rolimons refreshes while looping 
 
 
